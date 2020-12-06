@@ -1,0 +1,21 @@
+footer {
+  background-color: rgb(23, 58, 59);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-weight: 700;
+  color: white;
+}
+
+.social {
+  display: flex;
+}
+
+.image {
+  margin: 0 2rem 2rem;
+}
+
+.image:hover {
+  cursor: pointer;
+}

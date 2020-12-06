@@ -1,0 +1,24 @@
+nav {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 2.5rem;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.detail:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+}

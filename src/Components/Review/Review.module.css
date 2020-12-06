@@ -1,0 +1,38 @@
+.container {
+  /* background-color: rgba(80, 56, 25, 0.267); */
+  padding: 5rem 2rem;
+  margin: 2rem 0;
+}
+
+.review {
+  display: flex;
+  padding: 2rem;
+  margin: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.178);
+}
+
+.review img {
+  max-width: 10rem;
+  max-height: 10rem;
+  border-radius: 50%;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+.description {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+@media screen and (max-width: 860px) {
+}
